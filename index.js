@@ -35,9 +35,9 @@ async function getNoReason() {
         const resultEl = document.getElementById("result");
         resultEl.innerText = `I don't want to go because, ${data.reason}`; 
         resultEl.style.textAlign = 'center';
-        resultEl.style.padding = '40px 20px';
+        resultEl.style.padding = '30px 10px';
         resultEl.style.zIndex = '1';
-        resultEl.style.fontSize = '4rem';
+        resultEl.style.fontSize = '2rem';
         resultEl.style.color = 'white';
         resultEl.style.textShadow = '3px 3px 6px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 105, 180, 0.5)';
         resultEl.style.letterSpacing = '2px';
@@ -48,8 +48,8 @@ async function getNoReason() {
         resultEl.style.top = '50%';
         resultEl.style.left = '50%';
         resultEl.style.transform = 'translate(-50%, -50%)';
-        resultEl.style.width = '90vw';
-        resultEl.style.maxWidth = '90vw';
+        resultEl.style.width = '80vw';
+        resultEl.style.maxWidth = '80vw';
     } catch (error) { 
         console.error("Error fetching No-as-a-Service:", error); 
     } 
